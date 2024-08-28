@@ -36,7 +36,7 @@ justify-content: center;
 
 
 
-.style-container{
+.main-feedback{
     padding: 30px;
     width: 400px;
     height: fit-content;
@@ -44,7 +44,7 @@ justify-content: center;
     color: #fff;
     border: solid 20px 252e3;
     border-radius: 30px;
-    visibility: hidden;
+    
 }
 .h1{
     padding: 50px 0px 30px 0px;
@@ -102,19 +102,27 @@ justify-content: center;
 
 
 /* sector thanks you */
-
-.display-none{
-    
+.second-modal {
+    display: none;
 }
-
-.style-modal{
+.second-modal{
     padding: 30px;
     width: 400px;
-    height: fit-content;
     background-color: #252e3b;
     color: #fff;
     border: solid 20px 252e3;
     border-radius: 30px;
-    
-    
+}
+
+.style-second-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-selected{
+    color:  rgb(180, 119, 7);
+    background-color: #161b24;
+    border: #161b24 solid 7px;
+    border-radius: 20px;
+    margin-top: 30px;
 }
